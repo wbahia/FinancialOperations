@@ -39,4 +39,33 @@ public class ConsoleEventPublisherTests
         observerMock.Verify(x => x.OnNext(It.IsAny<IDomainEvent>()), Times.Exactly(1));
 
     }
+
+    [Fact]
+    public void Unsubscribe_WithSubscribedObserver_ShouldRemoveObserver()
+    {
+        // Arrange
+        var observerMock = new Mock<IObserver<IDomainEvent>>();
+        _eventPublisher.Subscribe(observerMock.Object);
+
+        // Verify observer is subscribed (by publishing an event)
+        var transaction = new Transaction(Guid.NewGuid(), TransactionType.Credit, 100, "Test");
+        var domainEvent = new TransactionProcessedEvent(transaction);
+        _eventPublisher.PublishAsync(domainEvent).Wait();
+
+        observerMock.Verify(x => x.OnNext(domainEvent), Times.Once);
+        observerMock.Reset();
+
+        // Act
+        _eventPublisher.Unsubscribe(observerMock.Object);
+
+        // Assert
+        // Publish another event to verify observer is no longer called
+        var newTransaction = new Transaction(Guid.NewGuid(), TransactionType.Debit, 50, "Test2");
+        var newDomainEvent = new TransactionProcessedEvent(newTransaction);
+        _eventPublisher.PublishAsync(newDomainEvent).Wait();
+
+        observerMock.Verify(x => x.OnNext(It.IsAny<IDomainEvent>()), Times.Never);
+    }
+
+
 }
