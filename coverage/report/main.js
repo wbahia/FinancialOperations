@@ -219,9 +219,9 @@ var assemblies = [
       { "name": "FinancialOperations.Application.UseCases.ProcessDebitRequest", "rp": "FinancialOperations.Application_ProcessDebitRequest.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 59, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "FinancialOperations.Application.UseCases.ProcessDebitUseCase", "rp": "FinancialOperations.Application_ProcessDebitUseCase.html", "cl": 24, "ucl": 1, "cal": 25, "tl": 59, "cb": 5, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "FinancialOperations.Application.UseCases.ProcessDebitValidator", "rp": "FinancialOperations.Application_ProcessDebitValidator.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 59, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "FinancialOperations.Application.UseCases.ProcessReserveRequest", "rp": "FinancialOperations.Application_ProcessReserveRequest.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 59, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "FinancialOperations.Application.UseCases.ProcessReserveUseCase", "rp": "FinancialOperations.Application_ProcessReserveUseCase.html", "cl": 0, "ucl": 25, "cal": 25, "tl": 59, "cb": 0, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "FinancialOperations.Application.UseCases.ProcessReserveValidator", "rp": "FinancialOperations.Application_ProcessReserveValidator.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 59, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "FinancialOperations.Application.UseCases.ProcessReserveRequest", "rp": "FinancialOperations.Application_ProcessReserveRequest.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 59, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "FinancialOperations.Application.UseCases.ProcessReserveUseCase", "rp": "FinancialOperations.Application_ProcessReserveUseCase.html", "cl": 25, "ucl": 0, "cal": 25, "tl": 59, "cb": 6, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "FinancialOperations.Application.UseCases.ProcessReserveValidator", "rp": "FinancialOperations.Application_ProcessReserveValidator.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 59, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "FinancialOperations.Application.UseCases.ProcessTransferRequest", "rp": "FinancialOperations.Application_ProcessTransferRequest.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 79, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "FinancialOperations.Application.UseCases.ProcessTransferUseCase", "rp": "FinancialOperations.Application_ProcessTransferUseCase.html", "cl": 37, "ucl": 0, "cal": 37, "tl": 79, "cb": 10, "tb": 12, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "FinancialOperations.Application.UseCases.ProcessTransferValidator", "rp": "FinancialOperations.Application_ProcessTransferValidator.html", "cl": 7, "ucl": 0, "cal": 7, "tl": 79, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
@@ -232,7 +232,7 @@ var assemblies = [
       { "name": "FinancialOperations.Domain.Common.BaseEntity", "rp": "FinancialOperations.Domain_BaseEntity.html", "cl": 10, "ucl": 1, "cal": 11, "tl": 21, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "FinancialOperations.Domain.Entities.Account", "rp": "FinancialOperations.Domain_Account.html", "cl": 79, "ucl": 5, "cal": 84, "tl": 121, "cb": 14, "tb": 18, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "FinancialOperations.Domain.Entities.Customer", "rp": "FinancialOperations.Domain_Customer.html", "cl": 16, "ucl": 1, "cal": 17, "tl": 29, "cb": 6, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "FinancialOperations.Domain.Entities.Transaction", "rp": "FinancialOperations.Domain_Transaction.html", "cl": 15, "ucl": 6, "cal": 21, "tl": 33, "cb": 1, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "FinancialOperations.Domain.Entities.Transaction", "rp": "FinancialOperations.Domain_Transaction.html", "cl": 15, "ucl": 6, "cal": 21, "tl": 33, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "FinancialOperations.Domain.Events.TransactionProcessedEvent", "rp": "FinancialOperations.Domain_TransactionProcessedEvent.html", "cl": 6, "ucl": 1, "cal": 7, "tl": 16, "cb": 1, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
   {
@@ -256,12 +256,6 @@ var riskHotspotMetrics = [
 ];
 
 var riskHotspots = [
-  {
-    "assembly": "FinancialOperations.Application", "class": "FinancialOperations.Application.UseCases.ProcessReserveUseCase", "reportPath": "FinancialOperations.Application_ProcessReserveUseCase.html", "methodName": "ExecuteAsync()", "methodShortName": "ExecuteAsync()", "fileIndex": 0, "line": 39,
-    "metrics": [
-      { "value": 42, "exceeded": true },
-      { "value": 6, "exceeded": false },
-    ]},
   {
     "assembly": "FinancialOperations.Infrastructure", "class": "FinancialOperations.Infrastructure.Events.ConsoleEventPublisher", "reportPath": "FinancialOperations.Infrastructure_ConsoleEventPublisher.html", "methodName": "ProcessEventWithRetryAsync()", "methodShortName": "ProcessEventWithRetryAsync()", "fileIndex": 0, "line": 47,
     "metrics": [
