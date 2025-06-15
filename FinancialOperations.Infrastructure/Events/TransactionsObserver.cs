@@ -25,8 +25,9 @@ public class TransactionObserver : IObserver<IDomainEvent>
                     transactionEvent.Transaction.Description);
                 break;
             default:
-                _logger.LogInformation("Evento: {EventType} - {EventId}",
-                    value.GetType().Name, value.Id);
+                if(value != null)
+                    _logger.LogInformation("Evento: {EventType} - {EventId}",
+                        value.GetType().Name, value.Id);
                 break;
         }
     }
